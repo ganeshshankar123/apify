@@ -1,14 +1,8 @@
 {
-"name": "apify-etsi-ipr-actor",
-"version": "1.0.0",
-"description": "Apify/Crawlee actor to scrape ETSI IPR details pages and save table rows + chunked HTML.",
-"type": "module",
-"main": "main.js",
-"dependencies": {
-"crawlee": "^3.12.0",
-"cheerio": "^1.0.0-rc.12"
-},
-"engines": {
-"node": ">=18"
-}
+  "name": "simple-apify-actor",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "crawlee": "^3.12.0"
+  }
 }
