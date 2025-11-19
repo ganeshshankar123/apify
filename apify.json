@@ -1,16 +1,12 @@
 {
-"name": "apify-etsi-ipr-actor",
-"title": "ETSI IPR Details Scraper",
-"version": "0.1.0",
-"buildTag": "latest",
-"platform": "apify",
-"input": {
-"type": "object",
-"properties": {
-"startUrl": { "type": "string" },
-"rowsPerChunk": { "type": "integer" },
-"saveRawHtml": { "type": "boolean" },
-"saveChunkHtml": { "type": "boolean" }
-}
-}
+  "name": "simple-apify-actor",
+  "version": "0.0.1",
+  "buildTag": "latest",
+  "env": { },
+  "input": {
+    "type": "object",
+    "properties": {
+      "startUrl": { "type": "string" }
+    }
+  }
 }
